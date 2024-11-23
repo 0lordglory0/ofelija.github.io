@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Opšte informacije o nama</title>
+  <link>https://github.com/0lordglory0/ofelija.github.io/index.html</link>
+  <description>Naše akcije</description>
+  <item>
+    <title>onama</title>
+    <link>https://github.com/0lordglory0/ofelija.github.io/onama.html</link>
+    <description>Saznajte o nama</description>
+  </item>
+  <item>
+    <title>galerija</title>
+    <link>https://github.com/0lordglory0/ofelija.github.io/galerija.html</link>
+    <description>Novi izgled</description>
+  </item>
+  <item>
+    <title>Asortiman</title>
+    <link>https://github.com/0lordglory0/ofelija.github.io/asortiman.html</link>
+    <description>Proširenje asortimana</description>
+  </item>
+   <item>
+    <title>Saznajte o autoru</title>
+    <link>https://github.com/0lordglory0/ofelija.github.io/autor.html</link>
+    <description>Saznajte o autoru</description>
+  </item>
+</channel>
+</rss>

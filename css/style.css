@@ -1,0 +1,813 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lora", serif;
+    font-weight:100;
+    font-style: italic;
+}
+#pozadina{
+    width: 100%;
+    height: 750px;
+    background:linear-gradient(to top,  rgba(0, 0, 0, 0.562)40%, rgb(0, 0, 0)90%), url(..//img/naslovna1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 80px;
+}
+#logo{
+    display: flex;
+    justify-content: left;
+    width: 100px;
+    height: 80px;
+    float: left;
+    margin-right: 200px;
+    text-align: center;
+}   
+#logo:hover, #logo1:hover{
+    transition-duration: 3s;
+    transform: rotateX(360deg);
+    text-shadow: #fff 10px 10px 10xp;
+} 
+Hl{
+    font-family: "Ballet", cursive;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.lista{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 77%;
+    height: 80px;
+    float: left;
+}
+.kartica{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    margin: 0 10px 0 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.kartica1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    margin: 0 10px 0 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    box-shadow: inset rgb(255, 255, 255) 0px 0px 10px 0px;
+}
+
+.kartica:hover, .kartica1:hover{
+    transition-duration: 0.5s;
+    box-shadow: inset rgb(255, 255, 255) 0px 0px 10px 0px;
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+#pretraga{
+    width: 100px;
+    height: 80px;
+    float: right;
+    margin-right: 10px;
+    border: 1px solid #fff;
+}
+#drzac-kontejner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+}
+#kontejner1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 200px;
+    margin-bottom: 170px;
+}
+#kontejner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 200px;
+}
+.naslov{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 60px;
+    margin-bottom: 10px; 
+    padding: 20px;
+}
+Hn{
+    color:rgb(255, 255, 255);
+    font-size: 80px;
+    font-family: "Ballet", cursive;
+    font-style: normal;
+    font-weight: 400;
+    text-shadow: rgb(0, 0, 0) 0px 0px 14px;
+    padding: 20px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 14px;
+}
+.podgovor-naslova{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 80px;
+    margin-bottom: 10px;
+    text-shadow: rgb(255, 255, 255) 0px 0px 14px;
+}
+.podgovor{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size: 26px;
+}
+.dugme{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+}
+input[type=button]{
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.808);
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    margin-top: 20px;
+}
+input[type=button]:hover{
+    box-shadow: rgba(95, 95, 95, 0.808) 0px 0px 14px;
+    width: 300px;
+    height: 30px;
+    transition-duration: 0.7s;
+    font-size: 14px;
+}
+main{
+    width: 100%;
+    height: auto;
+    background:linear-gradient(to top, rgb(218, 218, 218)40%, rgba(150, 150, 150, 0.411)90%) ;
+}
+.mi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+Hon{
+    font-size: 34px;
+    color:rgb(0, 0, 0);
+    padding: 20px;
+    
+}
+hr{
+    width: 500px;
+    height: 4px;
+    align-items: center;
+    background-color: rgb(65, 65, 65);
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#drzac-sadrzaja{
+    width: 100%;
+    height: auto;
+}  
+.drzac-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}  
+.blok-tekst{
+    width: 1000px;
+    height: auto;
+    margin-top: 10px;
+    background:linear-gradient(to left, rgb(219, 218, 218), rgba(219, 218, 218, 0),rgb(219, 218, 218)), url(..//img/zatekst.jpg);
+    opacity: 0.90;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(65, 65, 65) ;
+}
+.drzac-2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 50px;
+}
+.blok-slika{
+    width: 400px;
+    height: 200px;
+    margin-left: 30px;
+    box-shadow: rgb(181, 177, 177) 0px 0px 10px 0px;
+}
+.blok-slika img{
+    width: 400px;
+    height: 200px;
+}
+.blok-slika img:hover{
+    transform: scale(1.04);
+    transition-duration: 1s;
+    box-shadow: rgb(255, 255, 255) 0px 0px 10px 0px;
+}
+.blok-opis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    margin-left: 30px;
+}
+.pog{
+    width: 200px;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 5px double rgb(76, 76, 76);
+}
+Hk{
+    text-align: center;
+    font-size: 26px;
+    color:rgb(43, 43, 43);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.pogodnosti{
+    text-align: center;
+    font-size: 20px;
+    color:rgb(76, 76, 76);
+    padding: 40px 20px;
+}
+.link1{
+    color:rgb(255, 255, 255);
+    font-weight: 800;
+    font-style: normal;
+    text-shadow: #000 2px 1px 3px;
+}
+.link1:hover{
+    text-decoration: underline solid 2px rgb(255, 255, 255);
+    text-shadow: #000 2px 1px 3px;
+}
+
+#drzac-brend{
+    width: 100%;
+    height: 700px;
+    background:linear-gradient(to top,  rgba(255, 255, 255, 0.37)40%, rgba(255, 255, 255, 0.534)90%), url(..//img/pozadina2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+}
+#dupli-drzac-brend1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+}
+Hbd{
+    color:rgb(0, 0, 0);
+    font-size: 34px;
+}
+#dupli-drzac-brend{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 100%;
+    height: 300px;
+}
+.drzac-blok-brend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;
+    margin: 20px;
+}
+.blok-brend{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.blok-brend img{
+    width: 400px;
+    height: 200px;
+    border-radius: 0px 2000px 0px 2000px;
+    box-shadow: rgb(76, 76, 76) 0px 0px 20px;
+}
+.ime-brend{
+    width: 400px;
+    height: 60px;
+    border-radius: 100px 0px 100px 0px ;
+    box-shadow: rgb(76, 76, 76) 0px 0px 20px;
+}
+.i-bd{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+/*KONTAKT*/
+#drzac-kontakt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+table{
+    width: 800px;
+    height: 350px;
+    border: 10px ridge rgb(181, 177, 177);
+    padding: 20px;
+}
+th{
+    height: 50px;
+    width: 200px;
+    border: none;
+    color: rgb(65, 65, 65);
+    font-size: 18px;
+}
+textarea{
+    width: 90%;
+    height: 50px;
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(192, 192, 192);
+}
+input[type=text], input[type=email], input[type=password]{
+    width: 90%;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(192, 192, 192);
+}
+input[type=text]:hover,input[type=email]:hover, input[type=password]:hover, textarea:hover{
+    background-color: rgb(65, 65, 65);
+    transition-duration: 1s;
+}
+input[type=submit]{
+    width: 50%;
+    height: 50px;
+    background-color: rgb(65, 65, 65);
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+}
+input[type=submit]:hover{
+    box-shadow: inset 0px 0px 20px rgb(0, 0, 0);
+    transition-duration: 1s;
+    text-shadow: #fff 0px 0px 14px;
+    cursor: pointer;
+}
+input[type=radio]{
+    margin-left: 10px;
+    font-size: 18px;
+}
+label{
+    color: rgb(65, 65, 65);
+    font-size: 18px;
+}
+.komentar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    border-left: 5px ridge rgb(181, 177, 177);
+    border-right: 5px ridge rgb(181, 177, 177);
+    border-radius: 50px;
+    margin: 40px;
+}
+.komentar-pasus{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(65, 65, 65) ;
+}
+.korisnik img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+/*O NAMA*/
+#drzac-onama{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+.onama-naslov{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+hnv{
+    font-size: 34px;
+    padding: 10px 100px 10px 100px;
+    border-bottom: 3px solid rgb(65, 65, 65);
+    
+}
+.drzac-onm1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 530px;
+    padding: 40px;
+}
+.blok-on1{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    background-image: url(..//img/kuca.jpg);
+}
+.blok-on1 img{
+    width: 600px;
+    height: 400px;
+}
+.blok-on2{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 320px;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+.blok-on2:hover{
+    transition-duration: 2s;
+    left: 100px;
+}
+.drzac-onm2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    height: 530px;
+    padding: 40px;
+}
+.blok-on4{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    background-image: url(..//img/prstenovi.jpg);
+}
+.blok-on4 img{
+    width: 600px;
+    height: 400px;
+}
+.blok-on5{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    bottom: 300px;
+    right: 320px;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+.blok-on5:hover{
+    transition-duration: 2s;
+    right: 100px;
+}
+.kompanija{
+    color: #fff;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+/*GALERIJA*/
+#drzac-galerija{
+    width: 100%;
+    height: auto;
+}
+.d-g{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+
+}
+.galerija-slika{
+    width: 600px;
+    height: 450px;
+    margin:50px 50px 0;
+}
+.galerija-slika img{ 
+    width: 600px;
+    height: 450px;
+    opacity: 0.6;
+    border-radius: 30px;
+}
+.galerija-slika img:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+
+/*ASORTIMAN*/
+#drzac-asortiman{
+    width: 100%;
+    height: 900px;
+    margin-top: 50px;
+}
+.d-a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;   
+}
+.proizvod{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 20px;  
+    box-shadow: #000 0px 0px 10px
+}
+.proizvod img{
+    width: 300px;
+    height: 300px;
+    position: static;
+}
+.oblik-proizvoda{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.oblik-proizvoda img{
+    width: 100px;
+    height: 100px;
+    opacity: 0.4;
+}
+.oblik-proizvoda img:hover{
+    width: 300px;
+    height: 300px;
+    transition-duration:1.5s;
+    opacity: 1;
+}
+.d-s{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 50px;
+}
+.polje{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    margin: 20px;
+    box-shadow: #000 0px 0px 10px;
+    background-color: #00000018;
+}
+.napredak{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 30px;
+    margin: 10px;
+    border-radius:  10px 10px 0 0;
+}
+.cena{
+    width: 100px;
+    height: 30px;
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    color:  rgb(65, 65, 65);
+    font-weight: 300;
+    margin: 10px;
+    border-radius: 0  0  10px 10px;
+    font-style: normal;
+}
+.zvezde{
+    color:  rgb(65, 65, 65); 
+}
+.fa-regular{color: #fff;}
+
+/*AUTOR*/
+#pozadina2{
+    background: linear-gradient(to top, rgba(197, 197, 197, 0.699), rgba(66, 66, 66, 0.712)), url(..//img/pozadinaautor3.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+}
+#drzac-autor{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 530px;
+}
+.prvi{
+    width: 300px;
+    height: 500px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 20px;
+    background-image: url(..//img/ja3.jpg);
+    border-radius:  100px 800px 100px 700px;
+}
+.prvi1{
+    width: 300px;
+    height: 300px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 20px;
+    border-radius:  100px 800px 100px 700px;
+}
+.prvi1:hover, .prvi2:hover{
+    transition-duration: 1s;
+    transform: rotateY(-90deg);
+}
+.prvi2{
+    width: 100px;
+    height: 100px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 20px;
+    border-radius:  100px 800px 100px 700px;
+}
+.drugi{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    margin-left: 20px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 20px;
+    background-color: rgba(184, 184, 184, 0.452) ;
+    border-radius: 800px 100px 700px 100px;
+}
+.drugi1{
+    width: 300px;
+    height: 300px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 20px;
+    background-color: rgba(184, 184, 184, 0.452) ;
+    border-radius: 800px 100px 700px 100px;
+}
+.drugi1:hover, .drugi2:hover{
+    transition-duration: 1s;
+    transform: rotateY(90deg);
+}
+.drugi2{
+    width: 100px;
+    height: 100px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 20px;
+    background-color: rgba(184, 184, 184, 0.452) ;
+    border-radius: 800px 100px 700px 100px;
+}
+.o-autoru{
+    font-size: 22px;
+    text-align: center;
+    padding: 60px;
+    color: rgb(255, 255, 255) ;
+    font-weight: 500;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(65, 65, 65, 0.664);
+}
+#fut-drzac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 600px;
+    height: 100px;
+}
+#logo1{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 80px;
+    float: left;
+    text-align: center;
+}
+#dr-mreze{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 200px;
+    height: 50px;
+    margin: 0 20px;
+}
+#rss-site-map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 200px;
+    height: 50px;
+    margin: 0 20px;
+}
+#fut-drzac1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 600px;
+    height: 100px;
+}
+.futer-lista{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 600px;
+    height: 50px;
+}
+.kartica-fut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    margin: 0 10px 0 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.inform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 600px;
+    height: 100px;
+}
+.inf{
+    text-align: center;
+    width: 200px;
+    color: #fff;
+}
+.in-ml, .mapa, .fa-solid{
+    color: #fff;
+}
+.r-s, .soc{
+    color: #fff;
+    font-size: 26px;
+}
+.fa-brands{
+    padding: 0 10px;
+    color: #fff;
+}
